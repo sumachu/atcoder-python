@@ -6,7 +6,10 @@
 		"vscode": {
 			"settings": {},
 			"extensions": [
-				"ms-python.python"
+				"ms-python.python",
+				"eamodio.gitlens",
+				"donjayamanne.githistory",
+				"oderwat.indent-rainbow"
 			]
 		}
 	}
