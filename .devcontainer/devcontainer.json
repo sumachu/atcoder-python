@@ -1,13 +1,17 @@
 {
-	"name": "Existing Dockerfile",
-	"context": "..",
-	"dockerFile": "../Dockerfile",
-	"workspaceFolder": "/workspaces/atcoder-python",
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+		"docker-compose.yml"
+	],
+	"service": "app",
+	"workspaceFolder": "/workspace",
 	"customizations": {
 		"vscode": {
 			"settings": {},
 			"extensions": [
 				"ms-python.python",
+				"ms-python.black-formatter",
+				"ms-python.isort",
 				"eamodio.gitlens",
 				"donjayamanne.githistory",
 				"oderwat.indent-rainbow"

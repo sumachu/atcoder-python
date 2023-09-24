@@ -1,3 +1,2 @@
-autopep8
 numpy
 git+https://github.com/not522/ac-library-python

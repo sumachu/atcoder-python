@@ -14,7 +14,7 @@
 |操作|コマンド|
 |-|-|
 |コンテナの作成と起動|`devcontainer up --build-no-cache`|
-|コンテナの停止と削除|`docker rm -f コンテナ名`|
+|コンテナの停止と削除|`docker-compose -f docker-compose.yml down`|
 
 `コンテナの作成と起動`コマンドを実行後、以下の手順でコンテナにアタッチして下さい。
 
